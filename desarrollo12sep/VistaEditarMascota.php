@@ -14,7 +14,7 @@
         <div class="col-6">
         <form action="MascotasController.php" method="POST">
                         <?php
-                            include_once "EstudianteModel.php";
+                            include_once "MascotaModel.php";
                             $nuevoMascotas = new Mascotas();
                             /*FILTRAR AL ESTUDIANTE SEGUN ID ENVIADO*/
                             $resultado = $nuevoMascotas->FiltrarMascotas($_GET['idEst']);
